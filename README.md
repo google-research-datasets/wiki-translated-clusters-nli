@@ -34,7 +34,7 @@ We include translation files per language (`popular_pages_translations_{lang}.js
 }
 ```
 
-## Synthethic corruptions dataset
+## Synthetic corruptions dataset
 We create synthetic corruptions to the English Wikipedia introductions by replacing one sentence with an alternative version (based on edits from the [VitaminC dataset](https://github.com/TalSchuster/VitaminC)). The goal in this setting is to automatically identify which sentence was modified by using the information from the other articles in the cluster (i.e., Wikipedia versions in other languages, translated to English). See the [paper](https://arxiv.org/abs/2204.07447) for more details.
 
 The corrupted articles (`wiki_cluster_simulated_corruptions.json`) includes a dictionary with 144 titles. Each item has a list of corruption instances (total 825 instances). Each instance has the following format:
