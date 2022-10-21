@@ -1,7 +1,9 @@
 # Wikipedia Translated Clusters
 This is the dataset introduced and described in the EMNLP 2022 Findings paper [Stretching Sentence-pair NLI Models to Reason over Long Documents and Clusters](https://arxiv.org/abs/2204.07447).
 
-It is a collection of 5K introductions to popular English Wikipedia articles, with their parallel versions in 10 other languages, and machine translations to English. Also includes a synthetically corrupted dataset where one sentence out of the English Wiki is modified, and the task is to use the multilingual documents to identify the outlier.
+It is a collection of 5K introductions to popular English Wikipedia articles, with their parallel versions in 10 other languages, and machine translations to English. Also includes a synthetically corrupted dataset where one sentence out of the English Wiki is modified, and the task is to use the multilingual documents to identify the outlier with natural language inference (NLI).
+
+![Cluster nli](cluster_nli.png)
 
 ## Data format
 
